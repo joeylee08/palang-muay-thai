@@ -21,29 +21,48 @@ body,
 body {
 	background-color: #F5F2E9;
 }
+.palangmtlogo {
+	margin: 0 auto;
+	width: 100%;
+	height: auto;
+}
+.palangmt {
+	margin: 0 auto;
+	width: 100%;
+	font-size: 1.8rem;
+	font-weight: 400;
+	text-align: center;
+	background-color: #F5F2E9;
+}
+.thaiHeading {
+	font-size: 1.2rem;
+	margin: 0 auto;
+	font-weight: 400;
+	background-color: #F5F2E9;
+}
 h1, h2, h3, h4 {
 	color: #252923;
 	font-weight: 450;
 }
 .thaiHeading {
+	width: 100%;
 	font-family: "Noto Sans Thai", sans-serif;
+	text-align: center;
 }
 p {
 	color: #252923;
 }
 .mainPage {
+	display: flex;
+	flex-direction: column;
 	width: 95%;
 	margin: 0 auto;
 	background-color: #F5F2E9;
-	border: 1px solid red;
+	/* border: 1px solid red; */
 }
 .child {
-	background-color: white;
+	/* border: 2px solid red; */
 	margin: 0 auto;
-	width: 70%;
-	height: 10rem;
-	border: 0.03rem solid #846347;
-	border-radius: 0.2rem;
 }
 nav {
 	display: flex;
@@ -58,14 +77,21 @@ nav {
   width: 100%;
   justify-content: flex-end;
   list-style: none;
-  border: 2px solid red;
+  /* border: 2px solid red; */
 }
 .linksList a {
   text-decoration: none;
-  font-size: 1.3rem;
+	font-size: 1rem;
   font-weight: 300;
-  color: white;
+  color: #D8CDB9;
 }
 .linksList a.selected {
-  color: #C30010;
+  color: white;
+}
+.home .child {
+	display: flex;
+	flex-direction: column;
+	height: auto;
+	width: 50%;
+	margin-top: 1rem;
 }
