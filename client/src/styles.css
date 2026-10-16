@@ -23,7 +23,7 @@ body {
 }
 .palangmtlogo {
 	margin: 0 auto;
-	width: 100%;
+	width: 28rem;
 	height: auto;
 }
 .palangmt {
@@ -35,7 +35,7 @@ body {
 	background-color: #F5F2E9;
 }
 .thaiHeading {
-	font-size: 1.2rem;
+	font-size: 3rem;
 	margin: 0 auto;
 	font-weight: 400;
 	background-color: #F5F2E9;
@@ -67,22 +67,23 @@ p {
 nav {
 	display: flex;
 	width: 100%;
+	height: 5rem;
 	background-color: #344D38;
+	align-items: center;
 }
 .linksList {
   display: flex;
   flex-direction: row;
-	padding-right: 1rem;
-  gap: 1rem;
+	padding-right: 2rem;
+  gap: 2rem;
   width: 100%;
   justify-content: flex-end;
   list-style: none;
-  /* border: 2px solid red; */
 }
 .linksList a {
   text-decoration: none;
-	font-size: 1rem;
-  font-weight: 300;
+	font-size: 1.8rem;
+  font-weight: 350;
   color: #D8CDB9;
 }
 .linksList a.selected {
@@ -93,5 +94,5 @@ nav {
 	flex-direction: column;
 	height: auto;
 	width: 50%;
-	margin-top: 1rem;
+	margin-top: 2rem;
 }
