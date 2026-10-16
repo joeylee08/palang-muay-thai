@@ -25,6 +25,9 @@ h1, h2, h3, h4 {
 	color: #252923;
 	font-weight: 450;
 }
+.thaiHeading {
+	font-family: "Noto Sans Thai", sans-serif;
+}
 p {
 	color: #252923;
 }
