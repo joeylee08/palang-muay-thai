@@ -3,6 +3,7 @@ white #FFFFFF;
 ivory #F5F2E9;
 sand #D8CDB9;
 brown #846347;
+dark-brown #4B3619;
 dark-green #344D38;
 charcoal #252923;
 */
@@ -18,12 +19,15 @@ body,
 	min-height: 100%;
 	width: 100%;
 }
+html {
+	overflow-y: scroll;
+}
 body {
 	background-color: #F5F2E9;
 }
 .palangmtlogo {
 	margin: 0 auto;
-	width: 28rem;
+	width: 25rem;
 	height: auto;
 }
 .palangmt {
@@ -32,13 +36,14 @@ body {
 	font-size: 1.8rem;
 	font-weight: 400;
 	text-align: center;
-	background-color: #F5F2E9;
+	background-color: #4B3A26;
 }
 .thaiHeading {
 	font-size: 3rem;
-	margin: 0 auto;
+	margin: 0 auto 1rem auto;
 	font-weight: 400;
 	background-color: #F5F2E9;
+	color: #4B3619;
 }
 h1, h2, h3, h4 {
 	color: #252923;
@@ -46,8 +51,33 @@ h1, h2, h3, h4 {
 }
 .thaiHeading {
 	width: 100%;
+	font-size: 3.75rem;
 	font-family: "Noto Sans Thai", sans-serif;
 	text-align: center;
+	margin-bottom: 0;
+	line-height: 4rem;
+}
+.subHeading {
+	width: 90%;
+	margin: 0.5rem auto 0 auto;
+	color: #846347;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	gap: 1rem;
+	font-size: 2rem;
+}
+.valuesCard {
+	width: 10rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	border: 0.05rem solid #344D38;
+	border-radius: 0.3rem;
+	padding: 0.75rem;
+	background-color: #f8f8f8;
+	color: #344D38;
 }
 p {
 	color: #252923;
@@ -58,41 +88,44 @@ p {
 	width: 95%;
 	margin: 0 auto;
 	background-color: #F5F2E9;
-	/* border: 1px solid red; */
+	border: 1px solid red;
 }
 .child {
-	/* border: 2px solid red; */
 	margin: 0 auto;
 }
 nav {
 	display: flex;
 	width: 100%;
-	height: 5rem;
+	height: 7rem;
 	background-color: #344D38;
 	align-items: center;
 }
 .linksList {
   display: flex;
   flex-direction: row;
-	padding-right: 2rem;
   gap: 2rem;
-  width: 100%;
+  width: 97.25%;
   justify-content: flex-end;
   list-style: none;
 }
 .linksList a {
   text-decoration: none;
-	font-size: 1.8rem;
+	font-size: 1.5rem;
   font-weight: 350;
   color: #D8CDB9;
 }
 .linksList a.selected {
   color: white;
 }
-.home .child {
+.home .child1 {
 	display: flex;
 	flex-direction: column;
 	height: auto;
 	width: 50%;
 	margin-top: 2rem;
+}
+.home .child2 {
+	margin-top: 2rem;
+	width: 90%;
+	height: 5rem;
 }
