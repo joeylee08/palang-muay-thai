@@ -1,5 +1,6 @@
 /* 
 white #FFFFFF;
+off-white #FCFCFC;
 ivory #F5F2E9;
 sand #D8CDB9;
 brown #846347;
@@ -30,57 +31,51 @@ body {
 	width: 25rem;
 	height: auto;
 }
-.palangmt {
-	margin: 0 auto;
-	width: 100%;
-	font-size: 1.8rem;
-	font-weight: 400;
-	text-align: center;
-	background-color: #4B3A26;
-}
-.thaiHeading {
-	font-size: 3rem;
-	margin: 0 auto 1rem auto;
-	font-weight: 400;
-	background-color: #F5F2E9;
-	color: #4B3619;
-}
 h1, h2, h3, h4 {
-	color: #252923;
+	color: #4B3619;
 	font-weight: 450;
+}
+p {
+	color: #4B3619;
+	font-size: 1.4rem;
 }
 .thaiHeading {
 	width: 100%;
 	font-size: 3.75rem;
 	font-family: "Noto Sans Thai", sans-serif;
 	text-align: center;
-	margin-bottom: 0;
+	background-color: #F5F2E9;
+	margin: 0 auto;
+	font-weight: 400;
 	line-height: 4rem;
+	font-weight: 400;
+	color: #4B3619;
 }
 .subHeading {
 	width: 90%;
-	margin: 0.5rem auto 0 auto;
+	margin: 0 auto 2.5rem auto;
 	color: #846347;
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
 	gap: 1rem;
-	font-size: 2rem;
+	font-size: 1.8rem;
 }
 .valuesCard {
-	width: 10rem;
+	width: 100%;
+	height: 12rem;
 	display: flex;
+	gap: 0.25rem;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
 	border: 0.05rem solid #344D38;
 	border-radius: 0.3rem;
 	padding: 0.75rem;
-	background-color: #f8f8f8;
+	background-color: #fcfcfc;
 	color: #344D38;
-}
-p {
-	color: #252923;
+	font-size: 1.8rem;
+	font-weight: 250;
 }
 .mainPage {
 	display: flex;
@@ -89,6 +84,12 @@ p {
 	margin: 0 auto;
 	background-color: #F5F2E9;
 	border: 1px solid red;
+}
+.sectionHeading {
+	width: 100%;
+	margin: 0 auto;
+	font-size: 2.5rem;
+	color: #4B3619;
 }
 .child {
 	margin: 0 auto;
@@ -125,7 +126,13 @@ nav {
 	margin-top: 2rem;
 }
 .home .child2 {
-	margin-top: 2rem;
-	width: 90%;
-	height: 5rem;
+	width: 75%;
+	height: auto;
+}
+.valuesBox {
+	width: 80%;
+	margin: 1.5rem auto 0 auto;
+	display: grid;
+	gap: 1rem;
+	grid-template-columns: 1fr 1fr;
 }
