@@ -66,7 +66,10 @@ const Home = () => {
 						<p>Our journeys are never finished.</p>
 						<p>We continue to learn and grow throughout our lives.</p>
 						<p>Humility allows us to recognize wisdom in unexpected places, learn from those around us, and transform ourselves in ways we never thought possible.</p>
+						
 					</div>
+					<br/>
+						<br/>
 				</div>
 			</div>
 		</div>
