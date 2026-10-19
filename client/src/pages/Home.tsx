@@ -32,20 +32,40 @@ const Home = () => {
 				<h2 className='sectionHeading'>Our Core Values</h2>
 				<div className='valuesBox'>
 					<div className='valuesCard'>
-						<Dumbbell size={45}/>
+						<div className='valuesCardIcon'>
+							<Dumbbell size={45}/>
 							Strength
 						</div>
+						<p>Physical and mental strength are inseparable.</p>
+						<p>Pushing through physical discomfort strengthens our resolve and fighting spirit.</p>
+						<p>A strong body and spirit give us the confidence to stand up for ourselves and others.</p>
+						</div>
 					<div className='valuesCard'>
-						<Sword size={45}/>
-						Courage
+						<div className='valuesCardIcon'>
+							<Sword size={45}/>
+							Courage
+						</div>
+						<p>Courage isn't simply stepping into the ring against a skilled fighter.</p>
+						<p>Muay Thai teaches us to embrace uncertainty and persevere through self-doubt.</p>
+						<p>Through these experiences, we become more courageous and steadfast individuals.</p>
 					</div>
 					<div className='valuesCard'>
-						<HeartHandshake size={45}/>
-						Respect
+						<div className='valuesCardIcon'>
+							<HeartHandshake size={45}/>
+							Respect
+						</div>
+						<p>A fighter without respect is like a ship without a rudder.</p>
+						<p>True strength is not measured by our ability to overpower others, but by our willingness to protect and empower them.</p>
+						<p>Our true power is seen in the respect we consistently show to others.</p>
 					</div>
 					<div className='valuesCard'>
-						<TreePine size={45}/>
-						Humility
+						<div className='valuesCardIcon'>
+							<TreePine size={45}/>
+							Humility
+						</div>
+						<p>Our journeys are never finished.</p>
+						<p>We continue to learn and grow throughout our lives.</p>
+						<p>Humility allows us to recognize wisdom in unexpected places, learn from those around us, and transform ourselves in ways we never thought possible.</p>
 					</div>
 				</div>
 			</div>

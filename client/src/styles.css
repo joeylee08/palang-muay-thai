@@ -1,9 +1,9 @@
 /* 
 white #FFFFFF;
-off-white #FCFCFC;
+off-white #FAF9F6;
 ivory #F5F2E9;
 sand #D8CDB9;
-brown #846347;
+brown #846347; [borders]
 dark-brown #4B3619;
 dark-green #344D38;
 charcoal #252923;
@@ -63,19 +63,28 @@ p {
 }
 .valuesCard {
 	width: 100%;
-	height: 12rem;
+	height: auto;
 	display: flex;
-	gap: 0.25rem;
 	flex-direction: column;
-	align-items: center;
-	justify-content: center;
-	border: 0.05rem solid #344D38;
+	justify-content: flex-start;
+	border: 0.05rem solid #846347;
 	border-radius: 0.3rem;
-	padding: 0.75rem;
-	background-color: #fcfcfc;
-	color: #344D38;
+	padding: 2rem;
+	background-color: #FAF9F6;
+	color: #846347;
 	font-size: 1.8rem;
 	font-weight: 250;
+	gap: 1rem;
+}
+.valuesCard p {
+	margin: 0;
+}
+.valuesCardIcon {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 0.5rem;
 }
 .mainPage {
 	display: flex;
@@ -83,7 +92,7 @@ p {
 	width: 95%;
 	margin: 0 auto;
 	background-color: #F5F2E9;
-	border: 1px solid red;
+	/* border: 1px solid red; */
 }
 .sectionHeading {
 	width: 100%;
