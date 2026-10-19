@@ -38,6 +38,7 @@ h1, h2, h3, h4 {
 p {
 	color: #4B3619;
 	font-size: 1.4rem;
+	line-height: 1.8rem;
 }
 .thaiHeading {
 	width: 100%;
@@ -141,8 +142,8 @@ nav {
 	height: auto;
 }
 .valuesBox {
-	width: 80%;
-	margin: 1.5rem auto 0 auto;
+	width: 100%;
+	margin: 2rem auto 0 auto;
 	display: grid;
 	gap: 1rem;
 	grid-template-columns: 1fr 1fr;
