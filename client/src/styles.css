@@ -61,6 +61,9 @@ p {
 	color: white;
 	background-color: #344D38;
 }
+.home .pageBtn {
+	margin-top: 1rem;
+}
 .thaiHeading {
 	width: 100%;
 	font-size: 3.75rem;
@@ -159,7 +162,7 @@ nav {
 	flex-direction: column;
 	height: auto;
 	width: 50%;
-	margin-top: 2rem;
+	margin-top: 2.5rem;
 }
 .home .child2 {
 	margin: 0 auto;
@@ -171,11 +174,26 @@ nav {
 	height: auto;
 	margin: 1.8rem auto auto;
 	display: grid;
-	gap: 1rem;
+	gap: 1.5rem;
 	grid-template-columns: 1fr 1fr;
 }
 .home .child3 {
 	width: 75%;
 	height: auto;
 	margin-bottom: 5rem;
+}
+.programs {
+	width: 75%;
+	display: flex;
+	flex-direction: column;
+	gap: 1.8rem;
+	padding-top: 4rem;
+	margin-bottom: 5.5rem;
+}
+.programs .child {
+	width: 100%;
+	border: 0.05rem solid #846347;
+	border-radius: 0.3rem;
+	padding: 2rem;
+	background-color: #FAF9F6;
 }

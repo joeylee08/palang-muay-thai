@@ -33,7 +33,6 @@ const Home = () => {
 				<p>He founded Palang Muay Thai in order to help others experience the joy of training and growing alongside a community of competent, humble, and supportive individuals.</p>
 				<br/>
 				<br/>
-				<br/>
 				<h2 className='sectionHeading'>What is Muay Thai?</h2>
 				<br/>
 				<p>Muay Thai simply means Thai Boxing.</p>
@@ -43,7 +42,6 @@ const Home = () => {
 				<p>Muay Thai's roots extend back centuries into the fighting traditions of ancient Siam.</p>
 				<br/>
 				<p>While it has undergone many changes that have made it safer and more accessible, the fighting spirit associated with ancient Muay Thai remains unchanged.</p>
-				<br/>
 				<br/>
 				<br/>
 				<h2 className='sectionHeading'>Our Core Values</h2>
