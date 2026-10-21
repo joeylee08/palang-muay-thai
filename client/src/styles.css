@@ -33,12 +33,33 @@ body {
 }
 h1, h2, h3, h4 {
 	color: #4B3619;
-	font-weight: 450;
+	font-weight: 400;
 }
 p {
 	color: #4B3619;
 	font-size: 1.4rem;
 	line-height: 1.8rem;
+	font-weight: 250;
+	margin: 0;
+}
+.pageBtn {
+	width: 14.5rem;
+	height: 3.5rem;
+	color: #846347;
+	background-color: #FAF9F6;
+	font-size: 1.4rem;
+	font-weight: 250;
+	border: 0.05rem solid #4B3619;
+	border-radius: 0.5rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+.pageBtn:hover {
+	color: white;
+	background-color: #344D38;
 }
 .thaiHeading {
 	width: 100%;
@@ -73,8 +94,6 @@ p {
 	padding: 2rem;
 	background-color: #FAF9F6;
 	color: #846347;
-	font-size: 1.8rem;
-	font-weight: 250;
 	gap: 1rem;
 }
 .valuesCard p {
@@ -86,8 +105,9 @@ p {
 	justify-content: center;
 	align-items: center;
 	gap: 0.5rem;
-	margin-bottom: 0.5rem;
+	margin: 0.5rem auto;
 	font-size: 2rem;
+	font-weight: 250;
 }
 .mainPage {
 	display: flex;
@@ -109,7 +129,7 @@ p {
 nav {
 	display: flex;
 	width: 100%;
-	height: 8rem;
+	height: 8.5rem;
 	background-color: #344D38;
 	align-items: center;
 }
@@ -130,6 +150,10 @@ nav {
 .linksList a.selected {
   color: white;
 }
+.footer {
+	height: 8.5rem;
+	background-color: #344D38;
+}
 .home .child1 {
 	display: flex;
 	flex-direction: column;
@@ -138,13 +162,20 @@ nav {
 	margin-top: 2rem;
 }
 .home .child2 {
+	margin: 0 auto;
 	width: 75%;
 	height: auto;
 }
 .valuesBox {
 	width: 100%;
-	margin: 2rem auto 0 auto;
+	height: auto;
+	margin: 1.8rem auto auto;
 	display: grid;
 	gap: 1rem;
 	grid-template-columns: 1fr 1fr;
+}
+.home .child3 {
+	width: 75%;
+	height: auto;
+	margin-bottom: 5rem;
 }
