@@ -190,6 +190,12 @@ nav {
 	padding-top: 4rem;
 	margin-bottom: 5.5rem;
 }
+.muaythaioutline {
+	width: 20rem;
+	height: auto;
+	margin: 0 auto;
+	filter: brightness(1.01);
+}
 .programs .child {
 	width: 100%;
 	border: 0.05rem solid #846347;
