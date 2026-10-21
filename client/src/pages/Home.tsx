@@ -92,7 +92,7 @@ const Home = () => {
 				<br/>
 				<h2 className='sectionHeading'>Begin Your Journey</h2>
 				<br/>
-				<p>Whether you're stepping onto the mats for the first time or continuing your journey as a fighter, there's a place for you at Palang Muay Thai.</p>
+				<p>Whether you're stepping onto the mats for the first time or continuing your journey as a nak muay, there's a place for you at Palang Muay Thai.</p>
 				<br/>
 				<button type='button' className='pageBtn' onClick={() => navigate("/contact")}> Contact Us</button>
 			</div>
