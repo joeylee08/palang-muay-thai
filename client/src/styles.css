@@ -94,7 +94,7 @@ p {
 	justify-content: flex-start;
 	border: 0.05rem solid #846347;
 	border-radius: 0.3rem;
-	padding: 2rem;
+	padding: 1.8rem;
 	background-color: #FAF9F6;
 	color: #846347;
 	gap: 1rem;
@@ -108,8 +108,8 @@ p {
 	justify-content: center;
 	align-items: center;
 	gap: 0.5rem;
-	margin: 0.5rem auto;
-	font-size: 2rem;
+	margin: 0.3rem auto;
+	font-size: 1.95rem;
 	font-weight: 250;
 }
 .mainPage {
@@ -118,7 +118,6 @@ p {
 	width: 95%;
 	margin: 0 auto;
 	background-color: #F5F2E9;
-	/* border: 1px solid red; */
 }
 .sectionHeading {
 	width: 100%;
@@ -191,7 +190,7 @@ nav {
 	margin-bottom: 5.5rem;
 }
 .muaythaioutline {
-	width: 20rem;
+	width: 21rem;
 	height: auto;
 	margin: 0 auto;
 	filter: brightness(1.01);
