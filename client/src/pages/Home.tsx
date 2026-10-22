@@ -8,7 +8,7 @@ const Home = () => {
 		<div className='mainPage home'>
 			<br/>
 			<div className='child child1'>
-				<img className='palangmtlogo' width={1254} height={1254} style={{ width: "25rem", height: "auto" }}src="/images/palangmtlogo.png" alt="Palang Muay Thai logo" />
+				<img className='palangmtlogo' style={{ width: "25rem", height: "auto" }} src="/images/palangmtlogo.png" alt="Palang Muay Thai logo" />
 				<h2 className='thaiHeading'>พลังมวยไทย</h2>
 			</div>
 			<div className='subHeading'>

@@ -7,8 +7,7 @@ import Schedule from "./pages/Schedule";
 import Contact from "./pages/Contact";
 
 const App = () => {
-	const location = useLocation();
-	console.log("Current route:", location.pathname);
+
 	return (
 		<>
 			<NavBar />
