@@ -93,7 +93,7 @@ p {
 	flex-direction: column;
 	justify-content: flex-start;
 	border: 0.05rem solid #846347;
-	border-radius: 0.3rem;
+	border-radius: 0.5rem;
 	padding: 1.8rem;
 	background-color: #FAF9F6;
 	color: #846347;
@@ -189,6 +189,7 @@ nav {
 	padding-top: 4rem;
 	margin-bottom: 5.5rem;
 }
+.glovesoutline,
 .muaythaioutline {
 	width: 21rem;
 	height: auto;
@@ -198,7 +199,23 @@ nav {
 .programs .child {
 	width: 100%;
 	border: 0.05rem solid #846347;
-	border-radius: 0.3rem;
+	border-radius: 0.5rem;
 	padding: 2rem;
 	background-color: #FAF9F6;
+}
+.schedule {
+	padding-top: 2.5rem;
+	margin-bottom: 4rem;
+}
+.schedule .child1 {
+	margin-top: 1rem;
+	width: 50%;
+	min-width: 31.5rem;
+}
+.scheduleCard {
+	border: 0.05rem solid #846347;
+	border-radius: 0.5rem;
+	background-color: #FAF9F6;
+	padding: 1.2rem;
+	margin: 0.5rem 0 1.5rem 0;
 }
