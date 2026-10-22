@@ -33,7 +33,7 @@ const Programs = () => {
 				<p>Open Gym sessions provide students with an opportunity to focus on specific skills and receive additional personalized instruction as needed. Students can practice drills, refine their technique, and work on individual weaknesses at their own pace.</p>
 			</div>
 			<div className='child child5'>
-				<h2 className='sectionHeading'>Strength and Conditioning</h2>
+				<h2 className='sectionHeading'>Fight Conditioning</h2>
 				<br/>
 				<p>These sessions focus on developing the physical attributes necessary for effective Muay Thai.</p>
 				<br/>
@@ -41,7 +41,7 @@ const Programs = () => {
 			</div>
 			<div className='membershipDetails'>
 				<p className='membershipNote'>1. Membership fees are $150.00 per month for unlimited classes.</p>
-				<p className='membershipNote'>2. This includes foundational Muay Thai, Strength and Conditioning, and Open Gym.</p>
+				<p className='membershipNote'>2. This includes foundational Muay Thai, Fight Conditioning, and Open Gym.</p>
 				<p className='membershipNote'>3. Advanced Muay Thai attendance requires instructor approval.</p>
 			</div>	
 		</div>

@@ -22,7 +22,7 @@ const Home = () => {
 			</div>
 			<br/>
 			<div className='child child2 '>
-				<h2 className='sectionHeading'>Traditional Muay Thai Training</h2>
+				<h2 className='sectionHeading'>Traditional Muay Thai</h2>
 				<br/>
 				<p>Palang Muay Thai is a traditional Thai-style boxing gym with a strong emphasis on technique, conditioning, and fight preparation.</p>
 				<br/>

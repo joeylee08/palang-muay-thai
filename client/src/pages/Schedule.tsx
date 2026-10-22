@@ -7,7 +7,7 @@ const Schedule = () => {
 			<div className='child child1'>
 				<h2 className='sectionHeading'>Monday</h2>
 				<div className='scheduleCard'>
-					<p>6:30 PM - 7:30 PM Strength and Conditioning</p>
+					<p>6:30 PM - 7:30 PM Fight Conditioning</p>
 					<p>7:30 PM - 8:30 PM Muay Thai</p>
 				</div>
 				<h2 className='sectionHeading'>Tuesday</h2>
@@ -17,7 +17,7 @@ const Schedule = () => {
 				</div>
 				<h2 className='sectionHeading'>Wednesday</h2>
 				<div className='scheduleCard'>
-					<p>6:30 PM - 7:30 PM Strength and Conditioning</p>
+					<p>6:30 PM - 7:30 PM Fight Conditioning</p>
 					<p>7:30 PM - 8:30 PM Muay Thai</p>
 				</div>
 				<h2 className='sectionHeading'>Thursday</h2>
