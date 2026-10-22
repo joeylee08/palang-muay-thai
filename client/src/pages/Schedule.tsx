@@ -3,7 +3,7 @@ const Schedule = () => {
 	
 	return (
 		<div className='mainPage schedule'>
-			<img className='glovesoutline' src="/images/glovesoutline.png" alt="Boxing gloves fighter outline" />
+			<img className='glovesoutline' src="/images/glovesoutline.png" alt="Boxing gloves outline" />
 			<div className='child child1'>
 				<h2 className='sectionHeading'>Monday</h2>
 				<div className='scheduleCard'>

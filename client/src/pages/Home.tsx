@@ -48,7 +48,7 @@ const Home = () => {
 				<div className='valuesBox'>
 					<div className='valuesCard'>
 						<div className='valuesCardIcon'>
-							<Dumbbell size={49}/>
+							<Dumbbell size={38}/>
 							Strength
 						</div>
 						<p>Physical and mental strength are inseparable.</p>
@@ -57,7 +57,7 @@ const Home = () => {
 						</div>
 					<div className='valuesCard'>
 						<div className='valuesCardIcon'>
-							<Sword size={49}/>
+							<Sword size={38}/>
 							Courage
 						</div>
 						<p>Courage isn't simply stepping into the ring against a skilled fighter.</p>
@@ -66,7 +66,7 @@ const Home = () => {
 					</div>
 					<div className='valuesCard'>
 						<div className='valuesCardIcon'>
-							<HeartHandshake size={49}/>
+							<HeartHandshake size={38}/>
 							Respect
 						</div>
 						<p>A fighter without respect is like a ship without a rudder.</p>
@@ -75,7 +75,7 @@ const Home = () => {
 					</div>
 					<div className='valuesCard'>
 						<div className='valuesCardIcon'>
-							<TreePine size={49}/>
+							<TreePine size={38}/>
 							Humility
 						</div>
 						<p>Our journeys are never finished.</p>
