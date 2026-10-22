@@ -39,6 +39,11 @@ const Programs = () => {
 				<br/>
 				<p>Our S&C classes are carefully structured around explosiveness, balance, coordination, lateral and rotational stability, endurance, neuromuscular development, and whole-body integration.</p>
 			</div>
+			<div className='membershipDetails'>
+				<p className='membershipNote'>1. Membership fees are $150.00 per month for unlimited classes.</p>
+				<p className='membershipNote'>2. This includes foundational Muay Thai, Strength and Conditioning, and Open Gym.</p>
+				<p className='membershipNote'>3. Advanced Muay Thai attendance requires instructor approval.</p>
+			</div>	
 		</div>
 	)
 }
