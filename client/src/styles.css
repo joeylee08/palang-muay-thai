@@ -286,7 +286,7 @@ nav {
 		width: 100%;
 		justify-content: space-evenly;
 		gap: 0;
-		padding: 0;
+		padding-left: 0.5rem;
 		margin: 0;
 	}
 	.mobileNav .linksList a {
@@ -294,6 +294,9 @@ nav {
 		font-size: 1.8rem;
 		font-weight: 350;
 		color: #D8CDB9;
+	}
+	.mobileNav .linksList a.selected {
+		color: white;
 	}
 	.footer {
 		height: 6rem;
