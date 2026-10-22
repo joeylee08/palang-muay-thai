@@ -17,7 +17,7 @@ const Contact = () => {
 
 	const handleSendMessage = (event: React.FormEvent<HTMLFormElement>) => {
 		event.preventDefault();
-		alert("Thank you for reaching out.")
+		alert("This is a demonstration form. No message was sent.");
 		setMessageData({
 			name: "",
 			email: "",

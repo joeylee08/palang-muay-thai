@@ -119,6 +119,7 @@ p {
 	display: flex;
 	flex-direction: column;
 	width: 95%;
+	min-width: 60rem;
 	margin: 0 auto;
 	background-color: #F5F2E9;
 }
@@ -195,15 +196,20 @@ nav {
 .elephantoutline {
 	width: 21rem;
 	height: auto;
-	margin: 2rem auto 0 auto;
+	margin: 2rem auto 0.5rem auto;
 	filter: brightness(0.99);
 }
-.glovesoutline,
+.glovesoutline {
+	width: 21rem;
+	height: auto;
+	margin: 0 auto;
+	filter: brightness(1);
+}
 .muaythaioutline {
 	width: 21rem;
 	height: auto;
 	margin: 0 auto;
-	filter: brightness(1.01);
+	filter: brightness(.99);
 }
 .programs .child {
 	width: 100%;
