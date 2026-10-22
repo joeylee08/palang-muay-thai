@@ -1,4 +1,4 @@
-import { Routes, Route } from "react-router-dom";
+import { Routes, Route, useLocation } from "react-router-dom";
 import Home from "./pages/Home";
 import Programs from "./pages/Programs";
 import NavBar from "./components/NavBar";
@@ -7,6 +7,8 @@ import Schedule from "./pages/Schedule";
 import Contact from "./pages/Contact";
 
 const App = () => {
+	const location = useLocation();
+	console.log("Current route:", location.pathname);
 	return (
 		<>
 			<NavBar />

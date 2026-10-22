@@ -24,10 +24,10 @@ const Contact = () => {
 			message: "",
 		})
 	};
-	
+
 	return (
 		<div className='mainPage contact'>
-			<img className='elephantoutline' src="/images/elephantoutline.png" alt="Elephant outline" />
+			<img className='elephantoutline' width={1215} height={1295} style={{ width: "21rem", height: "auto" }}src="/images/elephantoutline.png" alt="Elephant outline" />
 			<div className='child child1'>
 				<h2 className='sectionHeading'>Attend a Free Trial Class</h2>
 				<br/>

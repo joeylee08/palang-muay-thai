@@ -1,9 +1,8 @@
 const Programs = () => {
-	
-	
+
 	return (
 		<div className='mainPage programs'>
-			<img className='muaythaioutline' src="/images/muaythaioutline.png" alt="Muay Thai fighter outline" />
+			<img className='muaythaioutline' width={1145} height={1374} style={{ width: "21rem", height: "auto" }}src="/images/muaythaioutline.png" alt="Muay Thai fighter outline" />
 			<div className='child child1'>
 				<h2 className='sectionHeading'>Muay Thai</h2>
 				<br/>
