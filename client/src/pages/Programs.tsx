@@ -36,7 +36,7 @@ const Programs = () => {
 				<br/>
 				<p>These sessions focus on developing the physical attributes necessary for effective Muay Thai.</p>
 				<br/>
-				<p>Our S&C classes are carefully structured around explosiveness, balance, coordination, lateral and rotational stability, endurance, neuromuscular development, and whole-body integration.</p>
+				<p>Fight Conditioning is carefully structured around explosiveness, balance, coordination, lateral and rotational stability, endurance, neuromuscular development, and whole-body integration.</p>
 			</div>
 			<div className='membershipDetails'>
 				<p className='membershipNote'>1. Membership fees are $150.00 per month for unlimited classes.</p>
